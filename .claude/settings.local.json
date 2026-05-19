@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p d:/ccnote/.claude/commands)",
+      "Bash(curl -sL \"https://cdn.jsdelivr.net/npm/marked@15.0.4/marked.min.js\" -o d:/ccnote/lib/marked.min.js)",
+      "Bash(code --version)",
+      "Bash(cursor --version)",
+      "Bash(curl -sL \"https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown-light.css\" -o d:/ccnote/lib/github-markdown.css)",
+      "Bash(curl -sL \"https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/highlight.min.js\" -o d:/ccnote/lib/highlight.min.js)",
+      "Bash(curl -sL \"https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11/build/styles/github.min.css\" -o d:/ccnote/lib/highlight-github.css)"
+    ],
+    "additionalDirectories": [
+      "d:\\ccnote\\.claude"
+    ]
+  }
+}
